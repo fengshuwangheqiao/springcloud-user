@@ -32,7 +32,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("API文档")
-                .description("借贷api项目的接口文档")
+                .description("Api接口文档")
                 .version("v1")
                 .build();
     }
